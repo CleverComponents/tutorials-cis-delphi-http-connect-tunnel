@@ -1,0 +1,18 @@
+; Copy beside CleverHttpTunnel.exe as CleverHttpTunnel.ini
+
+[Server]
+Port=8080
+; Optional LocalBinding (omit/empty = listen all interfaces):
+; LocalBinding=127.0.0.1
+; Optional (library defaults if omitted):
+; RequestTimeoutSec=10
+; ConnectTimeoutSec=10
+; IdleTimeoutSec=300
+; BufferSizeBytes=16384
+; MaxHeaderSizeBytes=1024
+; MaxConnectionsPerIP=30
+; RelayMaxThreadCount=10
+
+[Allowlist]
+Hosts=example.com
+Ports=443
